@@ -25,6 +25,12 @@ export default {
 
   data: () => ({
     drawer: false,
+    links: [
+      { route: '/' },
+      { route: '/about' },
+      { route: '/contact' },
+      { route: '/login' },
+    ],
   }),
 };
 </script>
