@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import Router from 'vue-router';
 import Main from './components/Main.vue';
 import navbar from './components/navbar.vue';
 
@@ -17,6 +18,7 @@ export default {
   components: {
     navbar,
     Main,
+    Router,
   },
 
   data: () => ({
