@@ -2,13 +2,12 @@
   <v-app>
     <v-content>
       <navbar/>
-      <Main/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Main from './components/Main.vue';
 import navbar from './components/navbar.vue';
 
 export default {
@@ -16,7 +15,6 @@ export default {
 
   components: {
     navbar,
-    Main,
   },
 
   data: () => ({
