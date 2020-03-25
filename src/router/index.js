@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Main from '../components/Main.vue';
-import About from '../components/about.vue';
+import Portfolio from '../components/Portfolio.vue';
 import Contact from '../components/contact.vue';
+import Blog from '../components/Blog.vue';
 import Login from '../components/login.vue';
 import NavBar from '../components/navbar.vue';
 
@@ -15,9 +16,14 @@ const routes = [
     component: Main,
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About,
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: Portfolio,
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog,
   },
   {
     path: '/contact',

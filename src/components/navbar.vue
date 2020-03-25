@@ -7,7 +7,10 @@
       <router-link to="/">Home</router-link></v-btn>
 
       <v-btn class="ma-1" rounded color="accent" dark top="1" right="true">
-      <router-link to="/about">About</router-link></v-btn>
+      <router-link to="/portfolio">Portfolio</router-link></v-btn>
+
+      <v-btn class="ma-1" rounded color="accent" dark top="1" right="true">
+      <router-link to="/blog">Blog</router-link></v-btn>
 
       <v-btn class="ma-1" rounded color="accent" dark top="1" right="true">
       <router-link to="/contact">Contact</router-link></v-btn>
@@ -25,12 +28,6 @@ export default {
 
   data: () => ({
     drawer: false,
-    links: [
-      { route: '/' },
-      { route: '/about' },
-      { route: '/contact' },
-      { route: '/login' },
-    ],
   }),
 };
 </script>
